@@ -22,9 +22,9 @@ IF
 GETGLOB 2
 EQUAL
 THROWIFNOT 1103
-.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.sol, 18
+.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.tsol, 18
 ACCEPT
-.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.sol, 20
+.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.tsol, 20
 GETGLOB 5
 DUP
 ISNULL
@@ -51,7 +51,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.sol, 31
+.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.tsol, 31
 OVER
 PUSHCONT {
 	LDREF
@@ -65,7 +65,7 @@ LDI 1
 LDU 8
 LDREF
 ENDS
-.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.sol, 0
+.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.tsol, 0
 CALLREF {
 	CALL $sendTransaction_internal_macro$
 }
@@ -91,9 +91,9 @@ IF
 GETGLOB 10
 EQUAL
 THROWIFNOT 1101
-.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.sol, 42
+.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.tsol, 42
 ACCEPT
-.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.sol, 44
+.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.tsol, 44
 ROLL 3
 BLKSWAP 2, 3
 NEWC
@@ -110,7 +110,7 @@ STREF
 ENDC
 SWAP
 SENDRAWMSG
-.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.sol, 0
+.loc ../node_modules/@broxus/contracts/contracts/wallets/Account.tsol, 0
 
 .globl	setOwnership_internal
 .type	setOwnership_internal, @function
