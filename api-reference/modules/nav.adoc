@@ -1,3 +1,0 @@
-docs/modules/api baseDir
-.API
-* xref:nav.adoc[Nav]
